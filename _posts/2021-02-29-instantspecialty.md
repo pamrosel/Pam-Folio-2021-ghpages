@@ -1,23 +1,24 @@
 ---
 layout: post
 permalink: /instantspecialty/
-title: "Instant Specialty Sachets"
+title: "Instant Specialty"
 image_sliders:
   - sliderinstantspecialty
-meta: ' Brand Identity, Packaging'
 ---
-<section class="section fadeup clear">
+<section class="section fadeup clear col-3-8 grid-mar">
 
-<div class="col-3-8 float_left grid-mar">
+<div>
   <div id="slideshow">
   {% include slider.html selector="sliderinstantspecialty" %}
   </div>
 
-  <div class="txt-centre">
+  <article class="txt-centre">
     <h2>{{ page.title }}</h2>
-    <br>
-    <p>Instant Specialty turn your coffee into instant coffee. I designed a sachet template that could be personalised for different roasters using their flagship colours. 
-      <span class="meta">{{ page.meta }}</span>
+    <p>Flexible templating system designed for any boutique coffee roaster to release their brand of instant coffee.
     </p>
-    </div>
+    <ul>
+      <li>Branding</li>
+      <li>Template System</li>
+    </ul>
+  </article>
 </div>

@@ -14,4 +14,5 @@ image_sliders:
   - sliderjafflejunkies
   - sliderpigcine
   - slidersoundsummit
+  - slidervirtubox
 ---

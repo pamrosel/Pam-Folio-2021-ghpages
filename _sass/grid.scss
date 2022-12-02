@@ -1,11 +1,17 @@
 @import "main.scss";
 
-$gridMargin: 0 6.25%;
-$gridMarDbl: 13%;
+$gridMargin: 0 10%;
+$gridMarginMob: 0 6%;
 
 [class*='col-'] {
   float: left;
-  padding-bottom: 300px;
+}
+
+main [class*='col-'] {
+}
+
+section {
+  padding-bottom: 200px;
 }
 
 [class*='col-'] img{
@@ -50,7 +56,11 @@ $gridMarDbl: 13%;
 }
 
 .grid-mar {
-  margin: $gridMargin;
+  margin: 0px 6.25%;
+}
+
+.right-mar {
+  margin-right: 6.25%;
 }
 
 .txt-centre {
@@ -60,7 +70,7 @@ $gridMarDbl: 13%;
 }
 
 .txt-left {
-  margin-right: $gridMarDbl;
+  margin-right: $gridMargin;
   padding: $txtPadding;
 }
 
@@ -123,22 +133,21 @@ $gridMarDbl: 13%;
     width: 100%;
     margin: 0;
     position: relative;
-    padding-bottom: 0;
-  }
-
-  h2 {
-    text-align: center;
   }
 
   .txt-left, .txt-centre {
-    text-align: justify;
-    margin: $gridMargin;
+    margin: $gridMarginMob;
     padding: $txtPadTop;
+  }
+
+  footer article {
+    margin: $gridMarginMob;
   }
 
   section {
     float: left;
-    padding-bottom: 300px;
+    padding-bottom: 150px;
+    width: 100%;
   }
 
 }

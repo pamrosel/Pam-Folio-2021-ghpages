@@ -3,6 +3,14 @@ layout: page
 title: "About page"
 class: "about"
 ---
+<article class="about">
+<div>
+	<p>Some text</p>
+</div>
+<div>
+	<p>Black seed oil was said to have been Cleopatra's beauty secret. A playful take on this mythology and the ancient wisdom of its carefully sourced Egyptian ingredients.</p>
+</div>
+</article>
 
 <svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
@@ -23,46 +31,3 @@ class: "about"
 </defs>
 </svg>
 
-
-
-<div id="all">
-  <div class="java"> </div>
-  <div class="script">Things I can do</div>
-</div>
-
-
-
-<div id="div1">
-
-			<span class="para_about">I'm an independent multi-disciplinary designer and artist. I specialise in creating unique visual identities and digital experiences. Always learning new things and expanding my practice, I’ve been working in the industry for 10 years. </span>
-
-			<span><u>Services</u><br>
-			Brand Identity<br>
-			Digital design<br>
-			Art direction<br>
-			Packaging<br>
-			Editorial & Print<br>
-			Online store</span>
-
-			<span><u>Process</u><br>
-			Bespoke<br>
-			Holistic<br>
-			Experimental<br>
-			Mixed media<br>
-			Collaborative</span>
-
-			<span class="para_about">Special interest in digital projects that are outside the ordinary! If that sounds like you, hit me up. </span>
-
-			<span><img width="175" src="{{ site.url }}/assets/images/about/pr_animated1.gif" alt="here pamela sits in her faithful computer chair" /></span>
-
-<!-- <span class="div2">draw an tornado!</span> -->
-</div>
-
-
-
-<div id="btn_holder">
-	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>About me</span></button>
-	<button id="btn_back" class="nodisplay btn btn--stripe btn_light"><span>what about you?</span></button>
-</div>
-
-<button id="btn_email" class="btn btn--stripe btn_light">Email me</button>

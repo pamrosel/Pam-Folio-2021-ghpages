@@ -1,0 +1,25 @@
+I"J<section class="section fadeup clear">
+
+<div class="col-3-8 float_left grid-mar">
+  <div id="slideshow">
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div id="sliderinstantspecialty">
+  <img data-src="" data-src-2x="" src="/assets/images/instantspecialty/sachetsphoto.jpg" title="" alt="" />
+  <img data-src="/assets/images/instantspecialty/instantspecialty_packetspurple.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+  </div>
+
+  <article class="txt-centre">
+    <h2>Instant Specialty</h2>
+    <p>Flexible templating system designed for any boutique coffee roaster to release their brand of instant coffee.
+    </p>
+    <ul>
+      <li>Branding</li>
+      <li>Template System</li>
+      <li>Packaging</li>
+    </ul>
+  </article>
+</div>
+</section>
+:ET

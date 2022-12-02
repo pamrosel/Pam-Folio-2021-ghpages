@@ -4,21 +4,25 @@ permalink: /soundsummit/
 title: "Sound Summit"
 image_sliders:
   - slidersoundsummit
-meta: ' Event Identity, Posters'
+meta: ' Logotype, Illustration, Posters'
 ---
-<section class="section fadeup clear">
+<section class="section fadeup clear float_left col-1-1">
 
 <div class="col-3-4 centre_align">
   <div id="slideshow">
   {% include slider.html selector="slidersoundsummit" %}
   </div>
 
-  <div class="txt-centre">
-    <h2>{{ page.title }}</h2><br>
-    <p>Eye-popping duotone in sharp execution, the identity for this independent music festival was inspired by 'Fast Forward', a cassette magazine from Melbourne in the 80s and old French typographic archives.
-      <span class="meta">{{ page.meta }}</span>
+  <article class="txt-centre">
+    <h2>{{ page.title }}</h2>
+    <p>Eye-popping duotone for this independent music festival.
     </p>
-    </div>
+    <ul>
+      <li>Logotype</li>
+      <li>Illustration</li>
+      <li>Posters</li>
+    </ul>
+  </article>
 </div>
 
 </section>

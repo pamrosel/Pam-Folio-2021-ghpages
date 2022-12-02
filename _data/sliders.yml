@@ -2,11 +2,9 @@
 - selector: sliderauki
   captions: false
   images:
-    - src: /assets/images/auki/auki_oilface.jpg
-    - data-src: /assets/images/auki/auki_bottles.jpg
+    - src: /assets/images/auki/auki_bottles.jpg
     - data-src: /assets/images/auki/auki_capsules.jpg
-    - data-src: /assets/images/auki/auki_logowhite.jpg
-    - data-src: /assets/images/auki/auki_laptop.gif
+    - data-src: /assets/images/auki/auki_oilface.jpg
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -20,7 +18,6 @@
     - data-src: /assets/images/bark/bark_landing.jpg
     - data-src: /assets/images/bark/bark_menu.jpg
     - data-src: /assets/images/bark/bark_redrock.gif
-    - data-src: /assets/images/bark/bark_private.gif
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -58,7 +55,6 @@
   captions: false
   images:
     - src: /assets/images/greenhillswagyu/gw_tradehandout.jpg
-    - data-src: /assets/images/greenhillswagyu/gw_dlfront.jpg
     - data-src: /assets/images/greenhillswagyu/gw_signage.jpg
     - data-src: /assets/images/greenhillswagyu/gw_logo2.jpg
   settings:
@@ -84,6 +80,7 @@
   captions: false
   images:
     - src: /assets/images/instantspecialty/sachetsphoto.jpg
+    - data-src: /assets/images/instantspecialty/instantspecialty_packetspurple.jpg
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -139,5 +136,17 @@
     - data-src: /assets/images/uap/uap_aboutbilingual.gif
   settings:
     interval: "8000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# virtubox
+- selector: slidervirtubox
+  captions: false
+  images:
+    - src: /assets/images/virtubox/screen1_Start.gif
+    - data-src: /assets/images/virtubox/screen2_Select.gif
+    - data-src: /assets/images/virtubox/screen3_Settings.gif
+  settings:
+    interval: "10000000000"
     height: "'auto'"
     effect: "'fade'"

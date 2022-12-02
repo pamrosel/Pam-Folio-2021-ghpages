@@ -19,12 +19,10 @@
 
 <body class="{{ page.class }}">
   <header class="nav-down">
-    <ul class='intro'>
-      <li><h1>{{ site.title }}</h1></li>
-      <li><h1><span></span></h1></li>
-    </ul>
     <nav>
-      <a href="{{ site.url }}" class="navfolio">Folio</a>
-      <a href="{{ site.url }}/icandesigniswear" class="navabout"><span class="mob_hide">How can I help you?</span> <span class="mob_show">Contact</span></a>
+      <li><h1>Lola Digital</h1></li>
+      <li><h1><span></span></h1></li>
+      <a id="navfolio" href="{{ site.url }}">Folio</a>
+      <a id="navabout" onclick="scrolltoFooter()">About</a>
     </nav>
   </header>
