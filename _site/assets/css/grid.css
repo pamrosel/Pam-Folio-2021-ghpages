@@ -3,9 +3,9 @@ body { font-family: "Inter", sans-serif; color: #404a5e; }
 
 body.folio { margin-top: 50%; transition: background-color ease-in-out .8s; }
 
-footer { z-index: 60; position: relative; padding: 100vh 0 100px 0; width: 100%; float: left; mix-blend-mode: hard-light; }
+footer { z-index: 60; position: relative; padding-top: 100vh; width: 100%; float: left; mix-blend-mode: hard-light; }
 
-footer p { font-size: 14px; margin-bottom: 10px; font-family: 'Epilogue', sans-serif; font-weight: 400; }
+footer p { font-size: 12px; margin-bottom: 10px; font-family: 'Epilogue', sans-serif; font-weight: 400; }
 
 footer p span { font-family: 'DM Sans'; }
 
@@ -13,11 +13,17 @@ footer h2 { font-family: 'Epilogue', sans-serif; font-size: 5.5vw; font-weight: 
 
 footer h3 { font-family: "Inter", sans-serif; font-weight: 300; font-size: 25px; }
 
+footer h4 { font-family: 'DM Sans' sans-serif; }
+
+footer h4 span { font-family: 'Epilogue'; }
+
+footer .pam_img { width: 50%; float: left; margin-bottom: 20px; }
+
 .bodyfooter { background-color: #865454; color: #ffffff; }
 
-.bodyfooter a { color: #ffffff; }
+.bodyfooter nav a { color: #ffffff; }
 
-.bodyfooter footer h2, .bodyfooter article { color: #d7ff8f; }
+.bodyfooter footer h2, .bodyfooter article { color: #d7ff8f; margin-bottom: .5em; }
 
 #foliobg { position: fixed; pointer-events: none; z-index: 0; top: 0%; left: 0; width: 100%; height: 100%; transition: opacity ease-in-out 0.8s; }
 
@@ -33,11 +39,11 @@ footer h3 { font-family: "Inter", sans-serif; font-weight: 300; font-size: 25px;
 
 p { line-height: 1.3em; font-size: 2vw; font-weight: 300; position: relative; }
 
-article > h2 { padding-bottom: .2em; }
-
 article > ul > li, article > ul > a { background-color: white; z-index: 5; position: relative; display: inline-block; padding: .2em .85em; border-radius: 2em; color: #5c667b; font-family: "DM Sans", sans-serif; margin: .25em 0; font-size: 14px; list-style-type: none; letter-spacing: .02em; text-decoration: none; transition: all .1s; }
 
-footer article > ul > li { background-color: #ffa1fe; color: #3a3e00; opacity: 0.9; }
+footer article > ul > li { background-color: #eaeaea; color: #61771e; opacity: 0.9; }
+
+footer article > ul > a { background-color: #ffa1fe; color: #333253; }
 
 article > ul > a:hover { background-color: #5c667b; color: #fbdfff; }
 
@@ -102,15 +108,17 @@ body.about header { background: none; }
 
 .in-view { opacity: 1; }
 
-.ideal-image-slider { z-index: 1; border-radius: 60px; }
+#slideshow { z-index: 1; border-radius: 60px; position: relative; overflow: hidden; }
 
-@media (max-width: 600px) { #foliobg { z-index: 0; } #foliofg { box-shadow: inset 0px 0 80px #848484, inset 0px 0 100px #fff; } .txt-centre { text-align: left; } p, footer h3 { font-size: 15px; } footer p { font-size: 10px; } h2, article h1 { text-align: left; font-size: 22px; } article > h2 { padding-bottom: .1em; } footer article > ul { width: 80%; } header { height: 85px; } nav { text-align: right; font-size: 15px; } nav a { padding-left: 5px; display: inline-block; } }
+@media (max-width: 600px) { .fgshow { mix-blend-mode: color; } .iis-previous-nav::before { content: "HEY HERE"; } #foliobg { z-index: 0; } #foliofg { box-shadow: inset 0px 0 80px #848484, inset 0px 0 100px #fff; opacity: .5; } .txt-centre { text-align: left; } p, footer h3 { font-size: 15px; } h2, article h1 { text-align: left; font-size: 22px; } article > h2 { padding-bottom: .1em; } footer article > ul { width: 80%; } .bodyfooter footer h2, .bodyfooter article { margin-bottom: 0; } header { height: 85px; } nav { text-align: right; font-size: 15px; } nav a { padding-left: 5px; display: inline-block; } }
 
 [class*='col-'] { float: left; }
 
-section { padding-bottom: 200px; }
+section { padding-bottom: 45vh; }
 
-[class*='col-'] img { width: 100%; }
+footer section { padding-bottom: 50px; float: left; }
+
+[class*='col-'] img { width: 100%; float: left; }
 
 [class*='col-']:last-of-type { padding-right: 0; }
 
@@ -156,6 +164,6 @@ section { padding-bottom: 200px; }
 
 .mob_show { display: none; }
 
-@media (max-width: 600px) { .mob_hide { display: none; } .mob_show { display: block; } [class*='col-'] { width: 100%; margin: 0; position: relative; } .txt-left, .txt-centre { margin: 0 6%; padding: 28px 0 28px 0; } footer article { margin: 0 6%; } section { float: left; padding-bottom: 150px; width: 100%; } }
+@media (max-width: 600px) { .mob_hide { display: none; } .mob_show { display: block; } [class*='col-'] { width: 100%; margin: 0; position: relative; } .txt-left, .txt-centre { margin: 0 6%; padding: 28px 0 28px 0; } footer article { margin: 0 6%; } section { float: left; padding-bottom: 150px; width: 100%; } footer section { padding-bottom: 2em; } }
 
 /*# sourceMappingURL=grid.css.map */

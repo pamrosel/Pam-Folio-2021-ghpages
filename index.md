@@ -3,6 +3,7 @@ layout: default
 title: "Happy Jekylling!"
 class: "folio"
 image_sliders:
+  - slideravalon
   - slideruap
   - sliderauki
   - sliderbark
@@ -12,6 +13,8 @@ image_sliders:
   - sliderheirloom
   - sliderinstantspecialty
   - sliderjafflejunkies
+  - sliderjagerahall
+  - sliderneighbour
   - sliderpigcine
   - slidersoundsummit
   - slidervirtubox

@@ -85,6 +85,10 @@ function scrolltoFolio() {
 
 $(document).ready(function() {
 
+    //GET CURRENT YEAR 
+
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+
     //FOOTER BG COLOUR CHANGE
 
     const body = document.querySelector("body");

@@ -34,14 +34,14 @@ body.folio {
 footer {
   z-index: 60;
   position: relative;
-  padding: 100vh 0 100px 0;
+  padding-top: 100vh;
   width: 100%;
   float: left;
   mix-blend-mode: hard-light;
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 10px;
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
@@ -64,16 +64,31 @@ footer h3 {
   font-size: 25px;
 }
 
+footer h4 {
+  font-family: 'DM Sans' sans-serif;
+}
+
+footer h4 span {
+  font-family: 'Epilogue';
+}
+
+footer .pam_img {
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
 .bodyfooter {
   background-color: #865454;
   color: $backgroundColor;
-  a {
+  nav a {
     color: $backgroundColor;
   }
 }
 
 .bodyfooter footer h2, .bodyfooter article {
   color: #d7ff8f;
+  margin-bottom: .5em;
 }
 
 #foliobg {
@@ -137,10 +152,6 @@ p {
   position: relative;
 }
 
-article > h2 {
-  padding-bottom: .2em;
-}
-
 article > ul > li, article > ul > a  {
   background-color: white;
   z-index: 5;
@@ -159,9 +170,14 @@ article > ul > li, article > ul > a  {
 }
 
 footer article > ul > li {
-  background-color: #ffa1fe;
-  color: #3a3e00;
+  background-color: #eaeaea;
+  color: #61771e;
   opacity: 0.9;
+}
+
+footer article > ul > a {
+  background-color: #ffa1fe;
+  color: #333253;
 }
 
 article > ul > a:hover {
@@ -271,13 +287,22 @@ body.about header {
 
  //SLIDER
 
- .ideal-image-slider {
- z-index: 1;
- border-radius: 60px;
- }
-
+#slideshow {
+  z-index: 1;
+  border-radius: 60px;
+  position: relative;
+ overflow: hidden;
+}
 
 @media (max-width: 600px) {
+
+  .fgshow {
+    mix-blend-mode: color;
+  }
+
+  .iis-previous-nav::before {
+    content: "HEY HERE";
+  }
 
   #foliobg {
     z-index: 0;
@@ -285,6 +310,7 @@ body.about header {
 
   #foliofg {
     box-shadow: inset 0px 0 80px #848484, inset 0px 0 100px #fff;
+    opacity: .5;
   }
 
   .txt-centre {
@@ -293,10 +319,6 @@ body.about header {
 
   p, footer h3 {
     font-size: 15px;
-  }
-
-  footer p {
-    font-size: 10px;
   }
 
   h2, article h1 {
@@ -310,6 +332,10 @@ body.about header {
 
   footer article > ul {
     width: 80%;
+  }
+
+  .bodyfooter footer h2, .bodyfooter article {
+    margin-bottom: 0;
   }
 
     header {

@@ -19,6 +19,7 @@ image_sliders:
       <li>Branding</li>
       <li>Print</li>
       <li>Illustration</li>
+      <li>Grass Fed</li>
     </ul>
   </article>
 </div>

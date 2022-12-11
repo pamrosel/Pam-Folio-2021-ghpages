@@ -14,11 +14,14 @@ image_sliders:
 
   <article class="txt-centre">
     <h2>{{ page.title }}</h2>
-    <p>Flexible templating system designed for any boutique coffee roaster to release their brand of instant coffee.
+    <p>This two-tone templating system allows any boutique coffee roaster to release their own brand of instant.
     </p>
     <ul>
+      <li>Instant Coffee</li>
+      <li>Sachets</li>
+      <li>Packaging</li>
+      <li>Design Template</li>
       <li>Branding</li>
-      <li>Template System</li>
     </ul>
   </article>
 </div>

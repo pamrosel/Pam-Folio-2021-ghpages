@@ -19,6 +19,7 @@ meta: ' Illustration'
     <ul>
       <li>Logotype</li>
       <li>Illustration</li>
+      <li>Startup</li>
     </ul>
     </article>
 </div>
