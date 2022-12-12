@@ -15,11 +15,10 @@ meta: ' Logotype, Illustration, Posters'
 
   <article class="txt-centre">
     <h2>{{ page.title }}</h2>
-    <p>These posters were designed inline with pride and protest events run by the mob at Jagera Community Hall in 2020.</p>
+    <p>Designed inline with pride and protest events run by the mob at Jagera Community Hall in 2020.</p>
     <ul>
       <li>Political Posters</li>
-      <li>Instagram</li>
-      <li>Blak Resistance</li>
+      <li>Socials</li>
       <li>Volunteer</li>
     </ul>
   </article>

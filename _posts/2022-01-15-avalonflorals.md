@@ -17,7 +17,7 @@ image_sliders:
   <article class="txt-left">
     <h2>{{ page.title }}</h2>
     <p>
-    Sophisticated restraint contrasts so well with the bursting hyper-coloured, otherworldly arrangements of Dehlia Nelms, a florist based in New Farm. This was a really fun brand to work on because it's simple and timeless, but still manages to take weird turns and surprise.
+    Sophisticated restraint works so well against the bursting hyper-coloured arrangements of Dehlia Nelms, a local New Farm florist.
     </p>
     <ul>
       <li>Branding</li>
@@ -26,6 +26,7 @@ image_sliders:
       <li>Socials</li>
       <li>Signage</li>
       <li>Merch</li>
+      <li>Startup</li>
       <a href="https://avalonflorals.com" target="_blank">avalonflorals.com</a>
     </ul>
   </article>

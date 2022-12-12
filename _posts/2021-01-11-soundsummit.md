@@ -18,6 +18,7 @@ meta: ' Logotype, Illustration, Posters'
     <p>Eye-popping duotone for this independent music festival.
     </p>
     <ul>
+      <li>Event Branding</li>
       <li>Logotype</li>
       <li>Illustration</li>
       <li>Posters</li>

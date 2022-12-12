@@ -1,0 +1,35 @@
+I"j<section class="section fadeup float_left col-1-2 grid-mar">
+
+<div>
+  <div id="slideshow">
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div id="sliderheirloom">
+  <img data-src="" data-src-2x="" src="/assets/images/heirloom/heirloom_bags.jpg" title="" alt="" />
+  <img data-src="/assets/images/heirloom/heirloom_bottles.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/heirloom/heirloom_logo1.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/heirloom/heirloom_logo2.gif" data-src-2x="" src="" title="" alt="" />
+  </div>
+  </div>
+
+  <article class="txt-centre">
+  <h2>Heirloom</h2>
+  <p>
+
+  A fun, modern take on choc milk with just cyan, magenta and black to differentiate between chocolate types but also maximize printing efficiency. 
+    <span class="meta"></span>
+  </p>
+  <ul>
+    <li>Choc Milk</li>
+    <li>CMYK</li>
+    <li>Home Printer Labels</li>
+    <li>Branding</li>
+    <li>Packaging</li>
+    <li>Logotype</li>
+  </ul>
+  </article>
+</div>
+
+</section>
+<!-- float_left -->
+:ET

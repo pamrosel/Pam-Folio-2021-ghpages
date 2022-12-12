@@ -14,15 +14,15 @@
 - selector: slideravalon
   captions: false
   images:
-    - src: /assets/images/avalonflorals/af_cards.jpg
+    - src: /assets/images/avalonflorals/af_bag.jpg
+    - data-src: /assets/images/avalonflorals/af_cards.jpg
+    - data-src: /assets/images/avalonflorals/af_windowsign.jpg
     - data-src: /assets/images/avalonflorals/af_messagecards.jpg
     - data-src: /assets/images/avalonflorals/af_instamonday.jpg
     - data-src: /assets/images/avalonflorals/af_home.gif
     - data-src: /assets/images/avalonflorals/af_instawww.jpg
     - data-src: /assets/images/avalonflorals/af_pages.gif
-    - data-src: /assets/images/avalonflorals/af_windowsign.jpg
-    - data-src: /assets/images/avalonflorals/af_flor.jpg
-    - data-src: /assets/images/avalonflorals/af_ist.jpg
+    - data-src: /assets/images/avalonflorals/af_floristsign.jpg
     - data-src: /assets/images/avalonflorals/shirt1.jpg
   settings:
     interval: "10000000000"
