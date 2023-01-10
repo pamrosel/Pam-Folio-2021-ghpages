@@ -75,7 +75,7 @@ function hasScrolled() {
 
 function scrolltoFooter() {
     const footer = document.querySelector("footer");
-    footer.scrollIntoView({block: "center", behavior: "smooth"});
+    footer.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrolltoFolio() {
@@ -108,9 +108,10 @@ $(document).ready(function() {
       const footerEntry = entries.find(entry => entry.target.tagName === 'FOOTER');
       if (footerEntry && footerEntry.isIntersecting) {
         console.log('footer intersecting');
-        navfolio.classList.remove("navhighlight")
-        navabout.classList.add("navhighlight")
+        navfolio.classList.remove("navhighlight");
+        navabout.classList.add("navhighlight");
         body.classList.add("bodyfooter");
+
         foliobg.classList.remove("bgshow");
         foliobg.classList.add("bghide");
         foliofg.classList.remove("fgshow");

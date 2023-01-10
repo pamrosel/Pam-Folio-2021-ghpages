@@ -3,45 +3,45 @@ body { font-family: "Inter", sans-serif; color: #404a5e; }
 
 body.folio { margin-top: 50%; transition: background-color ease-in-out .8s; }
 
-footer { z-index: 60; position: relative; padding-top: 100vh; width: 100%; float: left; mix-blend-mode: hard-light; }
+footer { border-top: 1.5px solid #404a5e; z-index: 60; position: relative; padding-top: 10vh; width: 100%; float: left; transition: opacity ease-in-out 0.8s; }
 
-footer p { font-size: 12px; margin-bottom: 10px; font-family: 'Epilogue', sans-serif; font-weight: 400; }
+footer p { font-size: 13px; margin-bottom: 10px; font-family: 'Epilogue', sans-serif; font-weight: 400; color: #d7d7d7; }
 
-footer p span { font-family: 'DM Sans'; }
+footer p span { font-family: 'DM Sans, sans-serif'; }
 
-footer h2 { font-family: 'Epilogue', sans-serif; font-size: 5.5vw; font-weight: 500; margin-top: 270px; }
+footer h2 { font-family: 'Epilogue', sans-serif; font-size: 5.5vw; font-weight: 500; margin-top: 270px; margin-bottom: .5em; }
 
-footer h3 { font-family: "Inter", sans-serif; font-weight: 300; font-size: 25px; }
+footer h3 { font-family: "Inter", sans-serif; font-weight: 300; font-size: 2vw; }
 
-footer h4 { font-family: 'DM Sans' sans-serif; }
+footer h4 { font-family: 'DM Sans', sans-serif; }
 
 footer h4 span { font-family: 'Epilogue'; }
 
 footer .pam_img { width: 50%; float: left; margin-bottom: 20px; }
 
-.bodyfooter { background-color: #865454; color: #ffffff; }
+.bodyfooter { color: #ffffff; }
 
 .bodyfooter nav a { color: #ffffff; }
 
-.bodyfooter footer h2, .bodyfooter article { color: #d7ff8f; margin-bottom: .5em; }
+.bodyfooter footer h2, .bodyfooter article { color: #d7ff8f; }
 
 #foliobg { position: fixed; pointer-events: none; z-index: 0; top: 0%; left: 0; width: 100%; height: 100%; transition: opacity ease-in-out 0.8s; }
 
 .bgshow { opacity: 1; background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, #ffb59f, transparent); transition: opacity ease-in-out 0.8s; }
 
-.bghide { opacity: .6; background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, #59fff1, #b320499c); transition: opacity ease-in-out 0.8s; }
+.bghide { opacity: 1; background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, #619f9a, #b320499c); }
 
 #foliofg { position: fixed; pointer-events: none; z-index: 20; top: 0; left: 0; width: 100%; height: 100%; box-shadow: inset 60px 0 120px #9f9f9f, inset -60px 0 120px #fff; transition: opacity ease-in-out 0.8s; }
 
 .fgshow { opacity: .8; mix-blend-mode: difference; transition: opacity ease-in-out 0.8s; }
 
-.fghide { opacity: .5; mix-blend-mode: difference; transition: opacity ease-in-out 0.8s; }
+.fghide { opacity: 1; mix-blend-mode: multiply; transition: opacity ease-in-out 0.8s; }
 
 p { line-height: 1.3em; font-size: 2vw; font-weight: 300; position: relative; }
 
 article > ul > li, article > ul > a { background-color: white; z-index: 5; position: relative; display: inline-block; padding: .2em .85em; border-radius: 2em; color: #5c667b; font-family: "DM Sans", sans-serif; margin: .25em 0; font-size: 14px; list-style-type: none; letter-spacing: .02em; text-decoration: none; transition: all .1s; }
 
-footer article > ul > li { background-color: #eaeaea; color: #61771e; opacity: 0.9; }
+footer article > ul > li { background-color: #eaeaea; color: #455b00; opacity: 0.9; }
 
 footer article > ul > a { background-color: #ffa1fe; color: #333253; }
 
@@ -57,7 +57,7 @@ a { color: #404a5e; text-decoration: underline; }
 
 h2, article h1 { font-family: "DM Sans", sans-serif; font-weight: 300; font-size: 2vw; position: relative; }
 
-nav { top: 0; right: 0; width: 100%; padding: 28px 24px; position: absolute; list-style-type: none; line-height: 1.3em; font-size: 1.8vw; }
+nav { top: 0; right: 0; width: 100%; padding: 28px 24px; position: absolute; list-style-type: none; line-height: 1.3em; font-size: 2vw; }
 
 nav a { text-decoration: none; font-weight: 200; cursor: pointer; }
 
@@ -98,11 +98,11 @@ h1 span::before { content: ''; animation: profile 9s infinite; position: relativ
     top: 0;
     opacity: 1; } }
 
-header { background: transparent; mix-blend-mode: difference; height: 115px; position: fixed; top: 0; transition: top 0.4s ease-out; width: 100%; z-index: 115; }
+header { background: transparent; mix-blend-mode: difference; height: 20vh; position: fixed; top: 0; transition: top 0.4s ease-out; width: 100%; z-index: 115; }
 
 body.about header { background: none; }
 
-.nav-up { top: -120px; }
+.nav-up { top: -20vh; }
 
 .fadeup { opacity: 0; transition-property: opacity; transition-duration: .4s; transition-delay: .4s; transition-timing-function: linear; }
 
@@ -110,6 +110,6 @@ body.about header { background: none; }
 
 #slideshow { z-index: 1; border-radius: 60px; position: relative; overflow: hidden; }
 
-@media (max-width: 600px) { .fgshow { mix-blend-mode: color; } .iis-previous-nav::before { content: "HEY HERE"; } #foliobg { z-index: 0; } #foliofg { box-shadow: inset 0px 0 80px #848484, inset 0px 0 100px #fff; opacity: .5; } .txt-centre { text-align: left; } p, footer h3 { font-size: 15px; } h2, article h1 { text-align: left; font-size: 22px; } article > h2 { padding-bottom: .1em; } footer article > ul { width: 80%; } .bodyfooter footer h2, .bodyfooter article { margin-bottom: 0; } header { height: 85px; } nav { text-align: right; font-size: 15px; } nav a { padding-left: 5px; display: inline-block; } }
+@media (max-width: 600px) { .fgshow { mix-blend-mode: color; } .iis-previous-nav::before { content: "HEY HERE"; } #foliobg { z-index: 0; } #foliofg { box-shadow: inset 0px 0 80px #848484, inset 0px 0 100px #fff; opacity: .5; } .txt-centre { text-align: left; } p, footer h3 { font-size: 16.5px; margin-right: 5%; } h2, article h1 { text-align: left; font-size: 22px; } article > h2 { padding-bottom: .1em; } footer article > ul { width: 80%; } header { height: 85px; } nav { text-align: right; font-size: 16.5px; } nav a { padding-left: 5px; display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */

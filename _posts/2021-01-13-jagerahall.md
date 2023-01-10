@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /jagerahall/
-title: "Jagera Community Hall Mob"
+title: "Jagera Mob"
 image_sliders:
   - sliderjagerahall
 meta: ' Logotype, Illustration, Posters'

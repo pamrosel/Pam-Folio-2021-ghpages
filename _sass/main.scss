@@ -6,6 +6,7 @@ $bodyColor: #404a5e;
 $bodyFont: 'Inter', sans-serif;
 $monoFont: 'DM Mono', monospace;
 $highlightFont: 'DM Sans', sans-serif;
+$bodyFontSize: 2vw;
 $padding: 28px;
 $txtPadding: 28px 24px;
 $txtPadTop: 28px 0 28px 0;
@@ -32,23 +33,25 @@ body.folio {
 //BG COLOUR SCROLL
 
 footer {
+  border-top: 1.5px solid $bodyColor;
   z-index: 60;
   position: relative;
-  padding-top: 100vh;
+  padding-top: 10vh;
   width: 100%;
   float: left;
-  mix-blend-mode: hard-light;
+  transition: $fadeTransition;
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 10px;
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
+  color: #d7d7d7;
 }
 
 footer p span {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans, sans-serif';
 }
 
 footer h2 {
@@ -56,16 +59,17 @@ footer h2 {
   font-size: 5.5vw;
   font-weight: 500;
   margin-top: 270px;
+  margin-bottom: .5em;
 }
 
 footer h3 {
   font-family: $bodyFont;
   font-weight: 300;
-  font-size: 25px;
+  font-size: $bodyFontSize;
 }
 
 footer h4 {
-  font-family: 'DM Sans' sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 footer h4 span {
@@ -79,7 +83,6 @@ footer .pam_img {
 }
 
 .bodyfooter {
-  background-color: #865454;
   color: $backgroundColor;
   nav a {
     color: $backgroundColor;
@@ -88,7 +91,6 @@ footer .pam_img {
 
 .bodyfooter footer h2, .bodyfooter article {
   color: #d7ff8f;
-  margin-bottom: .5em;
 }
 
 #foliobg {
@@ -109,9 +111,8 @@ footer .pam_img {
 }
 
 .bghide {
-  opacity: .6;
-  background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, #59fff1, #b320499c);
-  transition: $fadeTransition;
+  opacity: 1;
+  background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, #619f9a, #b320499c);
 }
 
 #foliofg {
@@ -136,8 +137,8 @@ footer .pam_img {
 }
 
 .fghide {
-  opacity: .5;
-  mix-blend-mode: difference;
+  opacity: 1;
+  mix-blend-mode: multiply;
   transition: $fadeTransition;
 }
 
@@ -171,7 +172,7 @@ article > ul > li, article > ul > a  {
 
 footer article > ul > li {
   background-color: #eaeaea;
-  color: #61771e;
+  color: #455b00;
   opacity: 0.9;
 }
 
@@ -205,7 +206,7 @@ a {
 h2, article h1 {
     font-family: $highlightFont;
     font-weight: 300;
-    font-size: 2vw;
+    font-size: $bodyFontSize;
     position: relative;
 }
 
@@ -219,7 +220,7 @@ nav {
   position: absolute;
   list-style-type: none;
   line-height: 1.3em;
-  font-size: 1.8vw;
+  font-size: $bodyFontSize;
   a {
     text-decoration: none;
     font-weight: 200;
@@ -257,7 +258,7 @@ h1 span::before{
 header {
   background: transparent;
   mix-blend-mode: difference;
-  height: 115px;
+  height: 20vh;
   position: fixed;
   top: 0;
   transition: top 0.4s ease-out;
@@ -270,7 +271,7 @@ body.about header {
 }
 
 .nav-up {
-    top: -120px;
+    top: -20vh;
 }
 
 .fadeup {
@@ -319,7 +320,8 @@ body.about header {
   }
 
   p, footer h3 {
-    font-size: 15px;
+    font-size: 16.5px;
+    margin-right: 5%;
   }
 
   h2, article h1 {
@@ -335,17 +337,13 @@ body.about header {
     width: 80%;
   }
 
-  .bodyfooter footer h2, .bodyfooter article {
-    margin-bottom: 0;
-  }
-
     header {
       height: 85px;
     }
 
     nav {
       text-align: right;
-      font-size: 15px;
+      font-size: 16.5px;
       a {
         padding-left: 5px;
         display: inline-block;
